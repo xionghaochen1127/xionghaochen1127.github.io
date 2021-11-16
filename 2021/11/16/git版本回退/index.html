@@ -6,24 +6,24 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>Hello World | Hexo</title>
+  <title>git版本回退 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="git版本回退命令以及注意事项">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://example.com/2021/11/16/hello-world/index.html">
+<meta property="og:title" content="git版本回退">
+<meta property="og:url" content="http://example.com/2021/11/16/git%E7%89%88%E6%9C%AC%E5%9B%9E%E9%80%80/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="git版本回退命令以及注意事项">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2021-11-16T09:57:26.215Z">
-<meta property="article:modified_time" content="2021-11-13T12:19:30.134Z">
+<meta property="article:published_time" content="2021-11-16T13:18:31.000Z">
+<meta property="article:modified_time" content="2021-11-16T13:20:40.207Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
   
-    <link rel="icon" href="/favicon.png">
+    <link rel="icon" href="/assets/img/favicon.png">
   
   <link rel="stylesheet" type="text/css" href="/./main.0cf68a.css">
   <style type="text/css">
@@ -47,10 +47,10 @@
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
-			<img src="" class="js-avatar">
+			<img src="/assets/img/头像.jpg" class="js-avatar">
 		</a>
 		<hgroup>
-		  <h1 class="header-author"><a href="/"></a></h1>
+		  <h1 class="header-author"><a href="/">皓辰</a></h1>
 		</hgroup>
 		
 
@@ -81,13 +81,11 @@
 		<nav class="header-nav">
 			<div class="social">
 				
-					<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
+					<a class="qq" target="_blank" href="/assets/img/qq%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg" title="qq"><i class="icon-qq"></i></a>
 		        
-					<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
+					<a class="weixin" target="_blank" href="/assets/img/%E5%BE%AE%E4%BF%A1%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg" title="weixin"><i class="icon-weixin"></i></a>
 		        
-					<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
-		        
-					<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
+					<a class="mail" target="_blank" href="mailto:xionghaochen1127@gamil.com" title="mail"><i class="icon-mail"></i></a>
 		        
 			</div>
 		</nav>
@@ -105,10 +103,10 @@
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img src="" class="js-avatar">
+				<img src="/assets/img/头像.jpg" class="js-avatar">
 			</div>
 			<hgroup>
-			  <h1 class="header-author js-header-author"></h1>
+			  <h1 class="header-author js-header-author">皓辰</h1>
 			</hgroup>
 			
 			
@@ -122,13 +120,11 @@
 			<nav class="header-nav">
 				<div class="social">
 					
-						<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
+						<a class="qq" target="_blank" href="/assets/img/qq%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg" title="qq"><i class="icon-qq"></i></a>
 			        
-						<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
+						<a class="weixin" target="_blank" href="/assets/img/%E5%BE%AE%E4%BF%A1%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg" title="weixin"><i class="icon-weixin"></i></a>
 			        
-						<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
-			        
-						<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
+						<a class="mail" target="_blank" href="mailto:xionghaochen1127@gamil.com" title="mail"><i class="icon-mail"></i></a>
 			        
 				</div>
 			</nav>
@@ -154,39 +150,49 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-hello-world" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-git版本回退" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      Hello World
+      git版本回退
     </h1>
   
 
         
-        <a href="/2021/11/16/hello-world/" class="archive-article-date">
-  	<time datetime="2021-11-16T09:57:26.215Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-11-16</time>
+        <a href="/2021/11/16/git%E7%89%88%E6%9C%AC%E5%9B%9E%E9%80%80/" class="archive-article-date">
+  	<time datetime="2021-11-16T13:18:31.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-11-16</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+        <h1 id="git版本回退命令以及注意事项"><a href="#git版本回退命令以及注意事项" class="headerlink" title="git版本回退命令以及注意事项"></a>git版本回退命令以及注意事项</h1><span id="more"></span>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h2 id="查看过去版本"><a href="#查看过去版本" class="headerlink" title="查看过去版本"></a>查看过去版本</h2><blockquote>
+<p>git reflog<br>5f68dce (HEAD -&gt; master) HEAD@{0}: commit: for test history<br>c76b315 HEAD@{1}: commit: My second commit,modify good.txt<br>56b5667 HEAD@{2}: commit (initial): My first commit.new good.txt</p>
+</blockquote>
+<h2 id="将当前HEAD重置为指定状态"><a href="#将当前HEAD重置为指定状态" class="headerlink" title="将当前HEAD重置为指定状态"></a>将当前HEAD重置为指定状态</h2><blockquote>
+<p>git reset –&lt;参数&gt;</p>
+</blockquote>
+<h2 id="基于索引值的操作【推荐】"><a href="#基于索引值的操作【推荐】" class="headerlink" title="基于索引值的操作【推荐】"></a>基于索引值的操作【推荐】</h2><blockquote>
+<p>git reset –hard[局部索引值]<br>git reset –hard a6ace91</p>
+</blockquote>
+<h2 id="使用-符号：只能后退"><a href="#使用-符号：只能后退" class="headerlink" title="使用^符号：只能后退"></a>使用^符号：只能后退</h2><blockquote>
+<p>git reset –hard HEAD^<br>注：一个^表示后退一步，n个表示后退n步</p>
+</blockquote>
+<h2 id="使用-符号：只能后退-1"><a href="#使用-符号：只能后退-1" class="headerlink" title="使用~符号：只能后退"></a>使用~符号：只能后退</h2><blockquote>
+<p>git reset –hard HEAD~n<br>注：表示后退n步</p>
+</blockquote>
+<h2 id="reset-命令的三个参数对比"><a href="#reset-命令的三个参数对比" class="headerlink" title="reset 命令的三个参数对比"></a>reset 命令的三个参数对比</h2><blockquote>
+<p>–soft参数<br>    仅仅在本地库移动HEAD指针<br>–mixed参数<br>    在本地库移动HEAD指针<br>    重置暂存区<br>–hard参数<br>    在本地库移动HEAD指针<br>    重置暂存区<br>    重置工作区</p>
+</blockquote>
+<h2 id="删除文件并找回"><a href="#删除文件并找回" class="headerlink" title="删除文件并找回"></a>删除文件并找回</h2><blockquote>
+<p>1.前提：删除前，文件存在时的状态提交到了本地库，即git add &lt;文件名&gt;<br>2.回退操作：git reset –hard HEAD【指针位置】：将指针移动到HEAD头的位置。<br>    删除操作已经提交到本地库：指针位置指向历史记录<br>    删除操作已经提交到本地库：指针位置指向历史记录<br>    删除操作尚未提交到本地库：指针位置使用HEAD</p>
+</blockquote>
 
       
 
@@ -203,6 +209,16 @@
                   <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
                   <div class="reward-box">
                     
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/assets/img/alipay.jpg">
+                      <span class="reward-type">支付宝</span>
+                    </div>
+                    
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/assets/img/微信二维码.jpg">
+                      <span class="reward-type">微信</span>
+                    </div>
                     
                   </div>
                 </span>
@@ -266,7 +282,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2021/11/16/hello-world/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2021/11/16/git%E7%89%88%E6%9C%AC%E5%9B%9E%E9%80%80/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -278,6 +294,16 @@
 </article>
 
   
+<nav id="article-nav">
+  
+  
+    <a href="/2021/11/16/git%E4%BB%93%E5%BA%93%E5%88%9D%E5%A7%8B%E5%8C%96/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">git仓库初始化</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -291,6 +317,19 @@
             </div>
         </div>
         
+        
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#git%E7%89%88%E6%9C%AC%E5%9B%9E%E9%80%80%E5%91%BD%E4%BB%A4%E4%BB%A5%E5%8F%8A%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="toc-number">1.</span> <span class="toc-text">git版本回退命令以及注意事项</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9F%A5%E7%9C%8B%E8%BF%87%E5%8E%BB%E7%89%88%E6%9C%AC"><span class="toc-number">1.1.</span> <span class="toc-text">查看过去版本</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B0%86%E5%BD%93%E5%89%8DHEAD%E9%87%8D%E7%BD%AE%E4%B8%BA%E6%8C%87%E5%AE%9A%E7%8A%B6%E6%80%81"><span class="toc-number">1.2.</span> <span class="toc-text">将当前HEAD重置为指定状态</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9F%BA%E4%BA%8E%E7%B4%A2%E5%BC%95%E5%80%BC%E7%9A%84%E6%93%8D%E4%BD%9C%E3%80%90%E6%8E%A8%E8%8D%90%E3%80%91"><span class="toc-number">1.3.</span> <span class="toc-text">基于索引值的操作【推荐】</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8-%E7%AC%A6%E5%8F%B7%EF%BC%9A%E5%8F%AA%E8%83%BD%E5%90%8E%E9%80%80"><span class="toc-number">1.4.</span> <span class="toc-text">使用^符号：只能后退</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8-%E7%AC%A6%E5%8F%B7%EF%BC%9A%E5%8F%AA%E8%83%BD%E5%90%8E%E9%80%80-1"><span class="toc-number">1.5.</span> <span class="toc-text">使用~符号：只能后退</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#reset-%E5%91%BD%E4%BB%A4%E7%9A%84%E4%B8%89%E4%B8%AA%E5%8F%82%E6%95%B0%E5%AF%B9%E6%AF%94"><span class="toc-number">1.6.</span> <span class="toc-text">reset 命令的三个参数对比</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B6%E5%B9%B6%E6%89%BE%E5%9B%9E"><span class="toc-number">1.7.</span> <span class="toc-text">删除文件并找回</span></a></li></ol></li></ol>
+                    </div>
+                </span>
+            </div>
+        </div>
         
     </div>
 </aside>
